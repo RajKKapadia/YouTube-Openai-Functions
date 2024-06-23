@@ -4,7 +4,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-GPT_MODEL = os.getenv('GPT_MODEL')
+GPT_MODEL = "gpt-4o-2024-05-13"
 
 TWILIO_TOKEN = os.getenv('TWILIO_TOKEN')
 TWILIO_SID = os.getenv('TWILIO_SID')
